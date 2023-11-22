@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/forulaire.css">
+    <title>formulairet</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <form>
+                <label for="peseudo">Pseudo:</label><br>
+                <input type="text" id="pseudo" name="peseudo"><br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd"> <br>
+                <label for="email">Enter your email:</label> <br>
+                <input type="email" id="email" name="email"><br>br>
+                <label for="photo">Choose a profile picture:</label> <br> 
+                <input type="file" id="photo" name="photo" accept="image/png, image/jpeg" /> <br> <br>
+                <fieldset>
+                    <legend>choix multiple</legend>                  
+                    
+                    <label for="Q1">Quelle destination chasissez-vous?</label> 
+                    <p>
+                        <input type="checkbox" id="Tunisie" name="Tunisie" checked />    
+                        <label for="Tunisie">Tunisie</label>
+                        <input type="checkbox" id="Italie" name="Italie" />
+                        <label for="Italie">Italie</label>
+                        <input type="checkbox" id="Espagne" name="Espagne" />
+                        <label for="Espagne">Espagne</label>
+                     </p>
+                            
+                    
+                </fieldset>  <br>
+                <fieldset>
+                    <label for="Q2">Qui sera vos accompagnateurs?</label>   
+                  
+                    <p>
+                        
+                      <input type="radio" id="famille" name="reponse" value="famille" checked />
+                      <label for="famille">En Famille</label> <br>                     
+                      <input type="radio" id="amis" name="amis" value="amis" />
+                      <label for="amis">Entre Amis</label> <br>
+                    
+
+
+              </form>
+        </section>
+    </main>
+    
+</body>
+</html>

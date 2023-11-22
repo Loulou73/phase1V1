@@ -1,0 +1,39 @@
+*{
+    text-align: right;
+}
+li {
+        list-style-position: inside;
+    }
+    
+body {
+    text-align: justify;
+    background-color: rgb(173, 230, 185);
+  }
+header {
+  background-color: blueviolet;
+
+}
+nav{
+  background-color:rgb(128, 30, 0) ;
+}
+
+section{
+  background-color: brown;
+}
+.jaune{
+background: yellow;
+}
+#noir{
+    background: black;
+    color: white;
+    text-align: justify;
+    font-size: 25px;
+
+
+
+}
+.footer{
+   background: #daf7a6;
+   line-height: 75px;
+
+}
