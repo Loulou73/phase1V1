@@ -1,0 +1,35 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    border: 3px solid #510080;
+    text-align: center;
+      }
+      td{
+          padding: 5px 20px 5px 10px;
+      }
+  caption{
+      font-family: fantasy;
+      color: indigo;
+      border-collapse: collapse;
+      background: rgb(220, 209, 228);
+      font-size: 40px;
+      line-height: 25px;
+  }
+  tr,td{
+      border: 1px dotted #510080;
+
+  }
+  th{
+      /* border: 1px solid #510080; */
+      background: #e7c2f5;
+      border-style: solid dotted double dotted;
+  }
+  tr td:first{
+      text-align: left;
+      background: #e6e6fa;
+  }
+  tfoot{
+      background-color: #e6e6fa;
+  }

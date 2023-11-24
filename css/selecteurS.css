@@ -1,0 +1,38 @@
+
+h1{
+    background-color:#2F4F4F;
+    color: #FFFFFF;   
+    text-align: left;
+}
+
+p:first-child{
+ color:rgb(218,114,214) ;
+}
+p:nth-child(even){
+    
+    color:rgb(218,114,214) ;
+}
+/* even : les impaires */
+p:nth-child(odd){
+    color:#87D3FB ;
+} 
+/* odd: paire */
+p:nth-child(3),p:nth-child(10){ 
+    color:rgb(255,173,0) ;
+}  
+p:nth-child(10){ 
+    color:rgb(255,173,0) ;
+}
+.zone1{
+    color: red;
+}
+.zone2{
+    color:rgb(255,173,0) ;
+
+}
+.lime{
+    color: greenyellow;
+}
+.zone3{
+    background: indianred;
+}

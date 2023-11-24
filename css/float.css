@@ -1,0 +1,31 @@
+.boite{
+     background-image:url("../img/fort.png");
+     background-color: cadetblue;
+    border: 6px double black;
+    /* margin: auto; */
+    margin: 30px;
+    background-repeat: no-repeat;
+    /* display: inline; */
+    float: left;
+    height: 196px;
+    width: 350px;
+    transition: width 2s;
+}
+.boite:hover {
+
+}
+
+    div:hover {
+        width: 100px;
+    }
+
+.clear{
+
+    clear: both;
+}
+.content{
+    /* width: 408px;
+    margin: auto; */
+    background: chocolate;
+    
+}

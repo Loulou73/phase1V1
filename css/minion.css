@@ -1,0 +1,81 @@
+/* table {
+    border: 1px solid black;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+  }
+  
+  tr:nth-child(2) td:nth-child(2),
+  tr:nth-child(3) td:nth-child(even) {
+  }
+  
+  .jaune {
+    background-color: yellow;
+  }
+  
+  .gris {
+    background-color: gray;
+  }
+  
+  .noir {
+    background-color: black;
+  }
+  
+  .bleu {
+    background-color: blue;
+  }
+  
+  .vert {
+    background-color: green;
+  } */
+
+  table {
+    border: 1px solid black;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  td {
+      width: 20px;
+    height: 20px;
+    border: 1px solid black;
+  }
+  
+tr:nth-child(8) td:nth-child(3) {
+    background-color: grey;
+}
+
+tr:nth-child(8) td:nth-child(4), tr:nth-child(9) td:nth-child(even), tr:nth-child(10) td:nth-child(even)
+{
+    background-color: yellow;
+}
+
+ tr:nth-child(9) td:nth-child(3), tr:nth-child(9) td:nth-child(5) {
+     background-color: black;
+ }
+ tr:nth-child()
+
+    .jaune {
+    background-color: yellow;
+  }
+
+  
+  .gris {
+    background-color: gray;
+  }
+  
+  .noir {
+    background-color: black;
+  }
+  
+  .bleu {
+    background-color: blue;
+  }
+  
+  .vert {
+    background-color: green;
+  } */
+
