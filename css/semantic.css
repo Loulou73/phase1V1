@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+body{
+    margin:auto;
+    border: 1px solid black;
+
+}
+.content{
+    width: 1400px;
+    margin: auto;  
+}
+header{
+    height: 150px;
+    background-color: rgb(183, 131, 212);
+    text-align: center;
+    color:white;
+
+}
+nav{
+    border: 1px solid rgb(58, 14, 36);
+    height: 50px;
+    background-color: rgb(58, 14, 36);
+    text-align: center;
+    color:white;
+
+}
+main{
+    height: 100%;
+    background-color: #787746;
+    text-align: center;
+    color:rgb(14, 12, 12);
+    padding: 20px;
+}
+section{
+    height: 100%;
+    background-color: #E6E2AF;
+    text-align: center;
+    color:rgb(14, 12, 12);
+    /* padding: ; */
+}
+footer{
+    height: 5%;
+    background-color: rgb(58, 14, 36);
+    text-align: center;
+    color:white;
+
+}

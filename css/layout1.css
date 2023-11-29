@@ -1,0 +1,40 @@
+*{
+    margin: 0 px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contenu{
+    margin: 50px;
+    border: solid 2px black;
+    width: 1400px;
+    height: 700px;
+    padding: 10px;
+    background-color: chartreuse;
+
+}
+header{
+    text-align: center;
+    background-color: green;
+    padding: 5px;
+    border: solid 2px brown;
+    height: 70px;
+}
+#menu{
+    padding: 10px;
+    border: solid 2px black;
+    margin-top: 5px;
+    text-align: center;
+    background:cadetblue;
+
+}
+.colonne{
+    display: flex;
+}
+.menu{
+    background-color: cornflowerblue;
+    border: solid 2px black;
+    height: 500px;
+    
+
+}
+

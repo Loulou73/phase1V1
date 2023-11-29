@@ -1,0 +1,42 @@
+#content{
+    width:700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cyan {
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 255, 213);
+    border-radius: 20px 0px 20px 10px;
+    margin: 10px;
+  }
+  .vert {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      background: rgb(192, 62, 175);
+      border-radius: 50%;
+    }
+    .item {
+        width: 100px;
+        height: 100px;
+        background: rgb(0, 255, 213);
+        /* border: 5px 0px 15px 10px; */
+        margin: 10px;
+    }
+    .blue {
+        width: 100px;
+        height: 100px;
+        background: rgb(0, 89, 255);
+        border-radius: 5px 0px 15px 10px;
+        margin: 10px;
+    }
+    .marron{
+        width: 100px;
+        height: 100px;
+        background: brown;
+        border-radius: 5px 0px 15px 10px;
+        margin: 10px;
+    }

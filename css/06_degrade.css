@@ -1,0 +1,13 @@
+.contenu{
+    height: 45em;
+    /*hauteur*/width: 45em;
+    /*largeur*/margin: auto;
+    /*centreautomatiquementlabalise*/
+    /*arrondielesangles*/background: linear-gradient(to left, #40a497, #6840a4);
+    /*dégradéquidémarreaveclapremièrecouleuràdroiteetladernièreàgauche(violet-vert)*//*lienversungénérateurdedégradés: cssgradient.io dans le slack */;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+        border-radius: 50%;
+}
