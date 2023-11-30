@@ -22,19 +22,31 @@ header{
 #menu{
     padding: 10px;
     border: solid 2px black;
-    margin-top: 5px;
+    margin: 5px;
     text-align: center;
     background:cadetblue;
 
 }
 .colonne{
     display: flex;
+    margin: auto ;
 }
 .menu{
     background-color: cornflowerblue;
     border: solid 2px black;
     height: 500px;
+    width: 200px;
+    margin:auto;
     
+
+}
+.main{
+    background-color: cadetblue;
+    border: solid 2px black;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+
 
 }
 

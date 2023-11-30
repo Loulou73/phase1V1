@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#content{
+    width: 1400px;
+    min-height: 600px;
+    background-color: yellow;
+    margin: auto;
+} 
+section{
+    background-color: rgb(68, 0, 255);
+    height: 100px;
+    width: 100%;
+    margin:auto;
+} 
+@media only screen and (max-width: 1399px){
+ #content{
+     background-color: green;
+     width:100%
+ }
+ section {
+     width:40%;
+ }
+
+}
+@media only screen and (max-width: 800px){
+    #content{
+        background-color: red;
+        min-height: 200px;
+    }
+   }
+
+    
