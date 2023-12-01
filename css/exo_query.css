@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    width: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 1400px;
+    min-height: 600px;
+     margin: auto;
+}
+section{
+    width: 100%;
+    min-height: 200px;
+    background-color:yellow;
+
+}
+h1{
+    display: none;
+}
+
+@media only screen and (max-width: 1399px) {
+    section{
+        width: 100%;
+        min-height: 200px;
+        background-color:green;
+    }
+    h1{
+        display: none;
+    }
+}
+@media only screen and (max-width: 760px) {
+    section{
+        width: 100%;
+        min-height: 200px;
+        background-color:red;}
+        h1{
+            display: contents;
+        }
+       
+    }
+    
+   
+
+
